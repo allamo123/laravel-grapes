@@ -1,0 +1,29 @@
+{
+    "name": "msa/laravel-grapes",
+    "description": "laravel grapes is a cms drag and drop page builder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamed allam",
+            "email": "55511778+allamo123@users.noreply.github.com",
+            "role": "Fullstack Developer"
+        }
+    ],
+    "require": {
+        "tightenco/ziggy": "*",
+        "simplehtmldom/simplehtmldom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+          "MSA\\LaravelGrapes\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MSA\\LaravelGrapes\\LaravelGrapesServiceProvider"
+            ]
+        }
+    }
+}
