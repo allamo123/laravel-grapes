@@ -1,3 +1,3 @@
-<div align="center">
-    <img src="./laravel-grapes-logo.png" width="800">
+<div align="left">
+    <img src="./laravel-grapes-logo.png" width="500">
 </div>
