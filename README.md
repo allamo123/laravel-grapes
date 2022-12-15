@@ -45,3 +45,6 @@ php artisan migrate
 ##### 1) builder_prefix
 The builder by default come with route [your-domain.com/hello/front-end-builder](#).<br>
 you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.
+
+##### 2) middleware
+Assign any middleware you want to the builder for example auth:admin.
