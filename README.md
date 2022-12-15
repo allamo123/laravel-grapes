@@ -27,10 +27,10 @@ php artisan migrate
 ```
 
 
-#### Go to /config/lg.php
+#### Go to config/lg.php
 
 <pre>
-    <?php
+    `<?php
 
     return [
         // routes configurations
@@ -39,6 +39,6 @@ php artisan migrate
         'middleware' => null, // middleware for builder
 
         'frontend_prefix' => 'hi', // prefix for frontend
-    ];
+    ];`
 
 </pre>
