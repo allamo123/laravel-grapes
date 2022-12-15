@@ -40,11 +40,13 @@ class LaravelGrapesServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
 
             $this->publishes([
+
                 __DIR__.'/../config/config.php' => config_path('lg.php'),
                 __DIR__.'/../resources/assets/js/PageBuilder.js' => base_path('public/js/laravel-grapes.js'),
                 __DIR__.'/../resources/assets/css/laravel-grapes.css' => base_path('public/js/laravel-grapes.css'),
                 __DIR__.'/../database/migrations/2022_11_27_020138_create_pages_table.php' => database_path('/migrations/'.date('Y_m_d_His', time()).'_create_pages_table.php'),
                 __DIR__.'/../database/migrations/2022_12_06_015222_create_custome_blocks_table.php' => database_path('/migrations/'.date('Y_m_d_His', time()).'_create_custome_blocks_table.php'),
+
             ], '*');
         }
     }
