@@ -43,5 +43,5 @@ php artisan migrate
 ```
 
 ##### 1) builder_prefix
-<p style="font-size:15px">The builder by default come with route front hello/front-end-builder.<p>
-<p style="font-size:15px">you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.<p>
+<p style="font-size:15px;">The builder by default come with route front hello/front-end-builder.<p>
+<p style="font-size:15px;">you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.<p>
