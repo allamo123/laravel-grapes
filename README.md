@@ -9,4 +9,4 @@
 
 ## About Laravel Grapes
 
-Laravel Grapes is a library for laravel framework, that offer cms drag and drop page builder for frontend that help user to change all frontend and content just in simple click.
+Laravel Grapes is a library for laravel framework, that offer cms drag and drop page builder for frontend that help user to change all frontend and content just in simple clics.
