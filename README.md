@@ -55,4 +55,4 @@ The frontend prefix by default it comes empty that mean that any generated front
 
 Now laravel grapes is working.
 
-Navigate to you builder route [your-domain.com/builder_prefix/front-end-builder](#1-builder_prefix)
+Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-builder_prefix)
