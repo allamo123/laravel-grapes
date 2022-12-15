@@ -29,7 +29,7 @@ php artisan migrate
 
 #### Go to /config/lg.php
 
-<code>
+<pre>
     <?php
 
     return [
@@ -41,4 +41,4 @@ php artisan migrate
         'frontend_prefix' => 'hi', // prefix for frontend
     ];
 
-</code>
+</pre>
