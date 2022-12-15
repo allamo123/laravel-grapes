@@ -43,5 +43,5 @@ php artisan migrate
 ```
 
 ##### 1) builder_prefix
-<p>The builder by default come with route your-domain.com/hello/front-end-builder.<p>
-<p>you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.<p>
+The builder by default come with route [your-domain.com/hello/front-end-builder](#).
+you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.
