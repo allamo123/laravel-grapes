@@ -65,4 +65,4 @@ Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-
 
 #### Go to public/css/laravel-grapes.css
 
-Start change the styles of laravel grapes builder.
+Start Customizing Laravel Grapes Builder As You Wish. 
