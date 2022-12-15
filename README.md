@@ -60,3 +60,9 @@ Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-
 <p align="left"><img src="./screenshots/screenshot_02.png"></p>
 
 <hr>
+
+## Customize Laravel Grapes Style
+
+#### Go to public/css/laravel-grapes.css
+
+Start change the styles of laravel grapes builder.
