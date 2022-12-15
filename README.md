@@ -16,5 +16,8 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 ## Installation Steps
 
 ```jsx 
-composer require msa/laravel-grapes 
+composer require msa/laravel-grapes
+```
+```jsx 
+php artisan vendor:publish --provider="MSA\LaravelGrapes\LaravelGrapesServiceProvider" --tag="*"
 ```
