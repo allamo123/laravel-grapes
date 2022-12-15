@@ -51,8 +51,12 @@ Assign any middleware you want to the builder for example auth:admin.
 
 ##### 3) frontend_prefix
 The frontend prefix by default it comes empty that mean that any generated front end page builder it load directly with your slug that created by you so if you need to set prefix for your generated frontend so change it to your prefix that you want.
-<hr>
 
+<hr>
 Now laravel grapes is working.
 
-Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-builder_prefix)
+Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-builder_prefix).
+
+<p align="left"><img src="./screenshots/screenshot_02.png"></p>
+
+<hr>
