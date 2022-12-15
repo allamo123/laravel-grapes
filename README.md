@@ -50,5 +50,4 @@ you can change the builder prefix to hi so now the builder load with route prefi
 Assign any middleware you want to the builder for example auth:admin.
 
 ##### 3) frontend_prefix
-The frontend prefix for by default it comes empty that mean that any generated front end page builder it load directly with your slug that created by you.<br>
-if you need to set prefix for your generated frontend so change it to your prefix that you want.
+The frontend prefix for by default it comes empty that mean that any generated front end page builder it load directly with your slug that created by you so if you need to set prefix for your generated frontend so change it to your prefix that you want.
