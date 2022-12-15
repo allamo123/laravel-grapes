@@ -6,3 +6,7 @@
 <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/allamo123/laravel-grapes?include_prereleases">
 </p>
 <p align="left"><img src="./screenshots/screenshot_01.png"></p>
+
+## About Laravel Grapes
+
+Laravel Grapes is a library for laravel framework, that offer cms drag and drop page builder for frontend that help user to change all frontend and content just in simple click.
