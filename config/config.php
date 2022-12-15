@@ -6,5 +6,5 @@ return [
 
     'middleware' => null, // middleware for builder
 
-    'frontend_prefix' => 'hi', // prefix for frontend
+    'frontend_prefix' => '', // prefix for frontend
 ];
