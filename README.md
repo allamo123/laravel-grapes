@@ -21,3 +21,24 @@ composer require msa/laravel-grapes
 ```jsx 
 php artisan vendor:publish --provider="MSA\LaravelGrapes\LaravelGrapesServiceProvider" --tag="*"
 ```
+
+```jsx 
+php artisan migrate
+```
+
+
+#### Go to /config/lg.php
+
+<code>
+    <?php
+
+    return [
+        // routes configurations
+        'builder_prefix' => 'hello', // prefix for builder
+
+        'middleware' => null, // middleware for builder
+
+        'frontend_prefix' => 'hi', // prefix for frontend
+    ];
+
+</code>
