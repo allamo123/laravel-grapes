@@ -43,7 +43,7 @@ php artisan migrate
 ```
 
 ##### 1) builder_prefix
-The builder by default come with route [your-domain.com/hello/front-end-builder].<br>
+The builder by default come with route [your-domain.com/hello/front-end-builder](#1-builder_prefix).<br>
 you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.
 
 ##### 2) middleware
@@ -55,4 +55,4 @@ The frontend prefix by default it comes empty that mean that any generated front
 
 Now laravel grapes is working for you.
 
-Navigate to you builder route [your-domain.com/builder_prefix/front-end-builder]
+Navigate to you builder route [your-domain.com/builder_prefix/front-end-builder](#1-builder_prefix)
