@@ -29,8 +29,8 @@ php artisan migrate
 
 #### Go to config/lg.php
 
-<pre>
-    `<?php
+```jsx
+    <?php
 
     return [
         // routes configurations
@@ -40,5 +40,4 @@ php artisan migrate
 
         'frontend_prefix' => 'hi', // prefix for frontend
     ];`
-
-</pre>
+```
