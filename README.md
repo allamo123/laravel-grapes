@@ -41,3 +41,7 @@ php artisan migrate
         'frontend_prefix' => 'hi', // prefix for frontend
     ];`
 ```
+
+- builder_prefix
+<p>The builder by default come with route front hello/front-end-builder.<p>
+<p>you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.<p>
