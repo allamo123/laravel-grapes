@@ -89,7 +89,7 @@ The options panel consists of 11 buttons :-
 - Preview
 - Full Screen
 - View Code
-- Create New Page
+- [Create New Page](#create-new-page)
 - Edit Code
 - Component Manager
 - Page Manager
