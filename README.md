@@ -107,6 +107,7 @@ The preview button help you to show page without pannels like screenshot below
 <p align="left"><img src="./screenshots/screenshot_preview.png"></p>
 
 #### Full Screen
+The full screen mode button hide all browser utils and show only the builder.
 
 #### View Code
 
