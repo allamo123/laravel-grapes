@@ -115,13 +115,18 @@ The view code button show you the html and css code of the page like sceenshot b
 
 #### Create New Page
 
-Press on plus button at topbar and fill page name and slug, if you need it a home page type slug /  .
+The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .
 
 <p align="left"><img src="./screenshots/screenshot_03.png"></p>
 
-After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar.
+After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.
 
 #### Edit Code
+The edit code button it will open a popup modal holdin page code including html and css.
+<p align="left"><img src="./screenshots/edit_code_screenshot.png"></p>
+So you can edit the html and css code from the popup<br>
+Note: Html and css on the code editor merged in one page but after submit the code you can [View Code](#view-code) you will find styles and html each of them seperate.
+
 
 #### Component Manager
 
