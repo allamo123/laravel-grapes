@@ -80,7 +80,8 @@ The Controll Panel Consists Of 3 Panels :-
 
 - View Panel
 
-
+#### Options Panel
+<p align="left"><img src="./screenshots/options_panel_screenshot.png"></p>
 
 ##### Create New Page
 
