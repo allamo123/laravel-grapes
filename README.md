@@ -80,7 +80,7 @@ The Controll Panel Consists Of 3 Panels :-
 
 3) View Panel <br>
 
-#### 1) Options Panel
+#### 1. Options Panel
 <p align="left"><img src="./screenshots/options_panel_screenshot.png"></p>
 
 The options panel consists of 11 buttons :-
