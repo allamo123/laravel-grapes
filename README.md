@@ -148,5 +148,21 @@ The save changes button update the page content and if you check the page slug y
 
 The options panel consists of 2 select input :-
 
-- [Page](#view-components)
-- [Device](#preview)
+- [Select Page](#select-page)
+- [Select Device](#select-device)
+
+#### Select Page
+The select page input let you to select page that you need to modify it.<br><br>
+
+#### Select Device
+The select device input let you to modify page html and styles on diffrent screens with the following sizes
+- Desktop
+- Extra Large
+- Large
+- Tablet
+- Medium
+- Mobile Landscape
+- Small
+- Extra Small
+- Mobile Portrait
+
