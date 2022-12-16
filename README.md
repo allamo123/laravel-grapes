@@ -125,7 +125,9 @@ After submit the form will receive toast notification tha page creaded successfu
 The edit code button it will open a popup code editor modal that hold page code including html and css.
 <p align="left"><img src="./screenshots/edit_code_screenshot.png"></p>
 So you can edit the html and css code from the code editor popup<br>
-Note: Html and css on the code editor merged in one page but after submit the code you can [View Code](#view-code) you will find styles and html each of them seperate.
+Note: Html and css on the code editor merged in one page but after submit the code you can 
+
+[View Code](#view-code) and you will find styles and html each of them seperate.
 
 
 #### Component Manager
