@@ -155,7 +155,7 @@ The options panel consists of 2 select input :-
 The select page input let you to select page that you need to modify it.<br><br>
 
 #### Select Device
-The select device input let you to modify page html and styles on diffrent screens with the following sizes
+The select device input let you to modify page html and styles on different screens with the following sizes
 - Desktop
 - Extra Large
 - Large
