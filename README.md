@@ -98,20 +98,20 @@ The options panel consists of 11 buttons :-
 - [Save Changes](#save-changes)
 
 #### View Components
-The view component button show grid lines for all components droped in the canvas, this help to to select each component individual for example take a look on the screenshot below.<br>
+The view component button show grid lines for all components droped in the canvas, this help to to select each component individual for example take a look on the screenshot below.<br><br>
 
-<p align="left"><img src="./screenshots/screenshot_04.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/screenshot_04.png" width="790"></p><br><br>
 
 #### Preview
 The preview button help you to show page without pannels like screenshot below<br>
-<p align="left"><img src="./screenshots/screenshot_preview.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/screenshot_preview.png" width="790"></p><br><br>
 
 #### Full Screen
-The full screen mode button hide all browser utils and show only the builder.
+The full screen mode button hide all browser utils and show only the builder.<br><br>
 
 #### View Code
 The view code button show you the html and css code of the page like sceenshot below<br>
-<p align="left"><img src="./screenshots/screenshot_05.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/screenshot_05.png" width="790"></p><br><br>
 
 #### Create New Page
 
@@ -119,29 +119,29 @@ The create new page button at topbar when you press on it, the popup modal open 
 
 <p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p><br>
 
-After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.
+After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.<br><br>
 
 #### Edit Code
 The edit code button it will open a popup code editor modal that hold page code including html and css.<br>
 <p align="left"><img src="./screenshots/edit_code_screenshot.png" width="790"></p><br>
 So you can edit the html and css code from the code editor popup, for editing syles you will find page style inside tag <code><style></style></code>.<br>
 
-###### Note: Html and css on the code editor merged in one page but after submit the code you can [View Code](#view-code), you will find styles and html each of them seperate and each generated page has it's own blade file and css file.
+###### Note: Html and css on the code editor merged in one page but after submit the code you can [View Code](#view-code), you will find styles and html each of them seperate and each generated page has it's own blade file and css file.<br><br>
 
 
 #### Component Manager
 The Component Manager button will open a popup hold all custome components that has been [saved](#save-component) to reused on another page to let you edit name of the component or delete it.<br>
-<p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p><br><br>
 
 #### Page Manager
 The page manager button will open a popup hold all pages and let you to edit page name and slug.<br>
-<p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p><br><br>
 
 #### Clear Canvas
-The clear canvas button will remove all components from the canvas.
+The clear canvas button will remove all components from the canvas.<br><br>
 
 #### Save Component
-Laravel Grapes let you to save any custome component for reuse it on other pages all you need to select the component and click on [Save Component Button](#save-component).
+Laravel Grapes let you to save any custome component for reuse it on other pages all you need to select the component and click on [Save Component Button](#save-component).<br><br>
 
 #### Save Changes
 The save changes button update the page content and if you check the page slug you will find that page content has been changed.<br><br>
