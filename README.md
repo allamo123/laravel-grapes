@@ -74,6 +74,6 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 ##### 1) Create New Page
 
-Press on plus button at topbar and fill page name and slug, if you need it a home page type slug '/' .
+Press on plus button at topbar and fill page name and slug, if you need it a home page type slug /  .
 
 <p align="left"><img src="./screenshots/screenshot_03.png"></p>
