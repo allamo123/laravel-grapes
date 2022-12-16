@@ -144,4 +144,11 @@ The clear canvas button will remove all components from the canvas.
 Laravel Grapes let you to save any custome component for reuse it on other pages all you need to select the component and click on [Save Component Button](#save-component).
 
 #### Save Changes
-The save changes button update the page content and if you check the page slug you will find that page content has been changed.
+The save changes button update the page content and if you check the page slug you will find that page content has been changed.<br><br>
+
+#### 2. Page Panel
+
+The options panel consists of 2 select input :-
+
+- [Page](#view-components)
+- [Device](#preview)
