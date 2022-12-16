@@ -74,13 +74,13 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 The Controll Panel Consists Of 3 Panels :-
 
-- Options Panel
+1) Options Panel <br>
 
-- Page Panel
+2) Page Panel <br>
 
-- View Panel
+3) View Panel <br>
 
-#### Options Panel
+#### 1) Options Panel
 <p align="left"><img src="./screenshots/options_panel_screenshot.png"></p>
 
 The options panel consists of 11 buttons :-
