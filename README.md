@@ -118,7 +118,6 @@ The view code button show you the html and css code of the page like sceenshot b
 The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .<br>
 
 <p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p><br>
-
 After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.<br><br>
 
 #### Edit Code
