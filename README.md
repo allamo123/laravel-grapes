@@ -71,3 +71,9 @@ Start Customizing Laravel Grapes Builder As You Wish.
 <hr>
 
 ### How To Use Laravel Grapes Builder
+
+##### 1) Create New Page
+
+Press on plus button and fill page name and slug, if you need it a home page type slug /.
+
+<p align="left"><img src="./screenshots/screenshot_03.png"></p>
