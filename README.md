@@ -127,7 +127,7 @@ The edit code button it will open a popup code editor modal that hold page code 
 So you can edit the html and css code from the code editor popup, for editing syles you will find page style at style tag <style></style><br>
 Note: Html and css on the code editor merged in one page but after submit the code you can 
 
-[View Code](#view-code) and you will find styles and html each of them seperate.
+[View Code](#view-code), you will find styles and html each of them seperate and each generated page has it's own blade file and css file.
 
 
 #### Component Manager
