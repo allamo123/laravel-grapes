@@ -72,8 +72,6 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 ### How To Use Laravel Grapes Builder
 
-### Controll Panel
-
 The Controll Panel Consists Of 3 Panels :-
 
 - Options Panel
@@ -82,7 +80,9 @@ The Controll Panel Consists Of 3 Panels :-
 
 - View Panel
 
-#### Create New Page
+
+
+##### Create New Page
 
 Press on plus button at topbar and fill page name and slug, if you need it a home page type slug /  .
 
