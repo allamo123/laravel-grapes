@@ -141,6 +141,6 @@ The page manager button will open a popup hold all pages and let you to edit pag
 The clear canvas button will remove all components from the canvas.
 
 #### Save Component
-Laravel Grapes let you to save any custome component for reuse it on another pages all you need to select the component and click on [Save Component Button](#save-component).
+Laravel Grapes let you to save any custome component for reuse it on other pages all you need to select the component and click on [Save Component Button](#save-component).
 
 #### Save Changes
