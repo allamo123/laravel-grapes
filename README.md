@@ -13,7 +13,7 @@ Laravel Grapes is a library for laravel framework, that offer cms drag and drop 
 
 Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codecanyon.net/)
 
-## Installation Steps
+### Installation Steps
 
 ```jsx 
 composer require msa/laravel-grapes
@@ -61,7 +61,7 @@ Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-
 
 <hr>
 
-## Customize Laravel Grapes Style
+### Customize Style
 
 #### Go to public/css/laravel-grapes.css
 
@@ -69,4 +69,4 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 <hr>
 
-## How To Use Laravel Grapes Builder
+### How To Use Laravel Grapes Builder
