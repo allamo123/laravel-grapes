@@ -72,8 +72,20 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 ### How To Use Laravel Grapes Builder
 
-##### 1) Create New Page
+### Controll Panel
+
+The Controll Panel Consists Of 2 Panels.
+
+- Options Panel
+
+- Page Panel
+
+- View Panel
+
+#### Create New Page
 
 Press on plus button at topbar and fill page name and slug, if you need it a home page type slug /  .
 
 <p align="left"><img src="./screenshots/screenshot_03.png"></p>
+
+After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar.
