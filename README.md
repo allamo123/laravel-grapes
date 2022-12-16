@@ -15,7 +15,7 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 
 <hr>
 
-### Installation Steps
+## Installation Steps
 
 ```jsx 
 composer require msa/laravel-grapes
@@ -70,7 +70,7 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 <hr>
 
-### How To Use Laravel Grapes Builder
+## How To Use
 
 The Controll Panel Consists Of 3 Panels :-
 
