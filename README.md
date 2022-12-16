@@ -124,7 +124,7 @@ After submit the form will receive toast notification tha page creaded successfu
 #### Edit Code
 The edit code button it will open a popup code editor modal that hold page code including html and css.
 <p align="left"><img src="./screenshots/edit_code_screenshot.png"></p>
-So you can edit the html and css code from the code editor popup, for editing syles you will find page style at style tag `<style></style>`.<br>
+So you can edit the html and css code from the code editor popup, for editing syles you will find page style at style tag ```jsx<style></style>```.<br>
 
 ###### Note: Html and css on the code editor merged in one page but after submit the code you can [View Code](#view-code), you will find styles and html each of them seperate and each generated page has it's own blade file and css file.
 
