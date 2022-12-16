@@ -136,7 +136,9 @@ The Component Manager button will open a popup hold all custome components that 
 #### Page Manager
 The page manager button will open a popup hold all pages and let you to edit page name and slug.
 <p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p>
+
 #### Clear Canvas
+The clear canvas button will remove all components from the canvas.
 
 #### Save Component
 Laravel Grapes let you to save any custome component for reuse it on another pages all you need to select the component and click on [Save Component Button](#save-component).
