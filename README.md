@@ -100,18 +100,18 @@ The options panel consists of 11 buttons :-
 #### View Components
 The view component button show grid lines for all components droped in the canvas, this help to to select each component individual for example take a look on the screenshot below.<br><br>
 
-<p align="left"><img src="./screenshots/screenshot_04.png" width="790"></p><br><br>
+<p align="left"><img src="./screenshots/screenshot_04.png" width="790"></p><br>
 
 #### Preview
 The preview button help you to show page without pannels like screenshot below<br>
-<p align="left"><img src="./screenshots/screenshot_preview.png" width="790"></p><br><br>
+<p align="left"><img src="./screenshots/screenshot_preview.png" width="790"></p><br>
 
 #### Full Screen
 The full screen mode button hide all browser utils and show only the builder.<br><br>
 
 #### View Code
 The view code button show you the html and css code of the page like sceenshot below<br>
-<p align="left"><img src="./screenshots/screenshot_05.png" width="790"></p><br><br>
+<p align="left"><img src="./screenshots/screenshot_05.png" width="790"></p><br>
 
 #### Create New Page
 
@@ -131,11 +131,11 @@ So you can edit the html and css code from the code editor popup, for editing sy
 
 #### Component Manager
 The Component Manager button will open a popup hold all custome components that has been [saved](#save-component) to reused on another page to let you edit name of the component or delete it.<br>
-<p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p><br><br>
+<p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p><br>
 
 #### Page Manager
 The page manager button will open a popup hold all pages and let you to edit page name and slug.<br>
-<p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p><br><br>
+<p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p><br>
 
 #### Clear Canvas
 The clear canvas button will remove all components from the canvas.<br><br>
