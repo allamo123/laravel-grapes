@@ -130,11 +130,14 @@ So you can edit the html and css code from the code editor popup, for editing sy
 
 
 #### Component Manager
+The Component Manager button will open a popup hold all custome components that has been [saved](#save-component) to reused on another page to let you edit name of the component or delete it.
+<p align="left"><img src="./screenshots/component_manager_screenshot.png"></p>
 
 #### Page Manager
 
 #### Clear Canvas
 
 #### Save Component
+Laravel Grapes let you to save any custome component for reuse it on another pages all you need to select the component and click on [Save Component Button](#save-component).
 
 #### Save Changes
