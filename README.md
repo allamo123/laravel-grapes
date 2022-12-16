@@ -110,6 +110,8 @@ The preview button help you to show page without pannels like screenshot below
 The full screen mode button hide all browser utils and show only the builder.
 
 #### View Code
+The view code button show you the html and css code of the page like sceenshot below
+<p align="left"><img src="./screenshots/screenshot_05.png"></p>
 
 #### Create New Page
 
