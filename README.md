@@ -81,7 +81,7 @@ The Controll Panel Consists Of 3 Panels :-
 3) View Panel <br>
 
 ### 1. Options Panel
-<p align="left"><img src="./screenshots/options_panel_screenshot.png" width="400"></p>
+<p align="left"><img src="./screenshots/options_panel_screenshot.png" width="400"></p><br>
 
 The options panel consists of 11 buttons :-
 
@@ -98,44 +98,44 @@ The options panel consists of 11 buttons :-
 - [Save Changes](#save-changes)
 
 #### View Components
-The view component button show grid lines for all components droped in the canvas, this help to to select each component individual for example take a look on the screenshot below.
+The view component button show grid lines for all components droped in the canvas, this help to to select each component individual for example take a look on the screenshot below.<br>
 
-<p align="left"><img src="./screenshots/screenshot_04.png" width="790"></p>
+<p align="left"><img src="./screenshots/screenshot_04.png" width="790"></p><br>
 
 #### Preview
-The preview button help you to show page without pannels like screenshot below
-<p align="left"><img src="./screenshots/screenshot_preview.png" width="790"></p>
+The preview button help you to show page without pannels like screenshot below<br>
+<p align="left"><img src="./screenshots/screenshot_preview.png" width="790"></p><br>
 
 #### Full Screen
 The full screen mode button hide all browser utils and show only the builder.
 
 #### View Code
-The view code button show you the html and css code of the page like sceenshot below
-<p align="left"><img src="./screenshots/screenshot_05.png" width="790"></p>
+The view code button show you the html and css code of the page like sceenshot below<br>
+<p align="left"><img src="./screenshots/screenshot_05.png" width="790"></p><br>
 
 #### Create New Page
 
-The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .
+The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .<br>
 
-<p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p>
+<p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p><br>
 
 After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.
 
 #### Edit Code
-The edit code button it will open a popup code editor modal that hold page code including html and css.
-<p align="left"><img src="./screenshots/edit_code_screenshot.png" width="790"></p>
+The edit code button it will open a popup code editor modal that hold page code including html and css.<br>
+<p align="left"><img src="./screenshots/edit_code_screenshot.png" width="790"></p><br>
 So you can edit the html and css code from the code editor popup, for editing syles you will find page style inside tag <code><style></style></code>.<br>
 
 ###### Note: Html and css on the code editor merged in one page but after submit the code you can [View Code](#view-code), you will find styles and html each of them seperate and each generated page has it's own blade file and css file.
 
 
 #### Component Manager
-The Component Manager button will open a popup hold all custome components that has been [saved](#save-component) to reused on another page to let you edit name of the component or delete it.
-<p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p>
+The Component Manager button will open a popup hold all custome components that has been [saved](#save-component) to reused on another page to let you edit name of the component or delete it.<br>
+<p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p><br>
 
 #### Page Manager
-The page manager button will open a popup hold all pages and let you to edit page name and slug.
-<p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p>
+The page manager button will open a popup hold all pages and let you to edit page name and slug.<br>
+<p align="left"><img src="./screenshots/pages_manager_screenshot.png" width="790"></p><br>
 
 #### Clear Canvas
 The clear canvas button will remove all components from the canvas.
