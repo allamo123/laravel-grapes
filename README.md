@@ -97,20 +97,20 @@ The options panel consists of 11 buttons :-
 - [Save Component](#save-component)
 - [Save Changes](#save-changes)
 
-#### View Components :-
+#### View Components
 The view component button show grid lines for all components droped in the canvas, this help to to select each component individual for example take a look on the screenshot below.
 
 <p align="left"><img src="./screenshots/screenshot_04.png"></p>
 
-#### Preview :-
+#### Preview
 The preview button help you to show page without pannels like screenshot below
 <p align="left"><img src="./screenshots/screenshot_05.png"></p>
 
-#### Full Screen :-
+#### Full Screen
 
-#### View Code :-
+#### View Code
 
-#### Create New Page :-
+#### Create New Page
 
 Press on plus button at topbar and fill page name and slug, if you need it a home page type slug /  .
 
@@ -118,14 +118,14 @@ Press on plus button at topbar and fill page name and slug, if you need it a hom
 
 After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar.
 
-#### Edit Code :-
+#### Edit Code
 
-#### Component Manager :-
+#### Component Manager
 
-#### Page Manager :-
+#### Page Manager
 
-#### Clear Canvas :-
+#### Clear Canvas
 
-#### Save Component :-
+#### Save Component
 
-#### Save Changes :-
+#### Save Changes
