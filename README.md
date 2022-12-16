@@ -85,17 +85,25 @@ The Controll Panel Consists Of 3 Panels :-
 
 The options panel consists of 11 buttons :-
 
-- View Components
-- Preview
-- Full Screen
-- View Code
+- [View Components](#view-components)
+- [Preview](#preview)
+- [Full Screen](#full-screen)
+- [View Code](#view-code)
 - [Create New Page](#create-new-page)
-- Edit Code
-- Component Manager
-- Page Manager
-- Clear Canvas
-- Save Component
-- Save Changes
+- [Edit Code](#edit-code)
+- [Component Manager](#component-manager)
+- [Page Manager](#page-manager)
+- [Clear Canvas](#clear-canvas)
+- [Save Component](#save-component)
+- [Save Changes](#save-changes)
+
+##### View Components
+
+##### Preview
+
+##### Full Screen
+
+##### View Code
 
 ##### Create New Page
 
@@ -104,3 +112,15 @@ Press on plus button at topbar and fill page name and slug, if you need it a hom
 <p align="left"><img src="./screenshots/screenshot_03.png"></p>
 
 After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar.
+
+##### Edit Code
+
+##### Component Manager
+
+##### Page Manager
+
+##### Clear Canvas
+
+##### Save Component
+
+##### Save Changes
