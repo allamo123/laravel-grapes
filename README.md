@@ -83,6 +83,20 @@ The Controll Panel Consists Of 3 Panels :-
 #### Options Panel
 <p align="left"><img src="./screenshots/options_panel_screenshot.png"></p>
 
+The options panel consists of 11 buttons :-
+
+- View Components
+- Preview
+- Full Screen
+- View Code
+- Create New Page
+- Edit Code
+- Component Manager
+- Page Manager
+- Clear Canvas
+- Save Component
+- Save Changes
+
 ##### Create New Page
 
 Press on plus button at topbar and fill page name and slug, if you need it a home page type slug /  .
