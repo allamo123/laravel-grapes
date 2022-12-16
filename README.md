@@ -134,7 +134,8 @@ The Component Manager button will open a popup hold all custome components that 
 <p align="left"><img src="./screenshots/component_manager_screenshot.png" width="790"></p>
 
 #### Page Manager
-
+The page manager button will open a popup hold all pages and let you to edit page name and slug.
+<p align="left"><img src="./screenshots/page_manager_screenshot.png" width="790"></p>
 #### Clear Canvas
 
 #### Save Component
