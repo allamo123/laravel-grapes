@@ -104,7 +104,7 @@ The view component button show grid lines for all components droped in the canva
 
 #### Preview
 The preview button help you to show page without pannels like screenshot below
-<p align="left"><img src="./screenshots/screenshot_05.png"></p>
+<p align="left"><img src="./screenshots/screenshot_preview.png"></p>
 
 #### Full Screen
 
