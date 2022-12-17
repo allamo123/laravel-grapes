@@ -176,7 +176,7 @@ The View Panel consists of 4 buttons :-
 
 #### Block Manager
 The Block Manager Comes with:-
-- Layout Components which holds
+- Layout which holds
   - [ ] Navbar
   - [ ] Section
   - [ ] Container
@@ -184,3 +184,23 @@ The Block Manager Comes with:-
   - [ ] Column
   - [ ] Column break
   - [ ] Media Object
+
+- Components which holds
+  - [ ] Dropdown Menu
+  - [ ] Menu
+  - [ ] Menu Link
+  - [ ] Alert
+  - [ ] Link
+  - [ ] Tabs
+  - [ ] Tab
+  - [ ] Badge
+  - [ ] Card
+  - [ ] Card Container
+  - [ ] Collapse
+  - [ ] Dropdown Item
+  - [ ] Dropdown Button
+
+- Typography which holds
+  - [ ] Header
+  - [ ] Paragraph
+  - [ ] Separator
