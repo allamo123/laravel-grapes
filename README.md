@@ -209,4 +209,9 @@ The Block Manager Comes with Bootstrap Components :-
   - [ ] 5 prebuilt templates
 
 - Saved which holds
-  - [ ] All your saved custom components
+  - [ ] All your saved custom 
+  
+#### Layer Manager
+Another utility tool you might find useful when working with web elements is the layer manger. It's a tree overview of the structure nodes and enables you to manage it easier.<br>
+
+<p align="left"><img src="./screenshots/layer_manager_screenshot.png" width="790"></p><br>
