@@ -308,5 +308,5 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Transform<br>
 
 <a href="https://github.com/allamo123">
-  <img src="https://github.com/allamo123.png?size=50">
+  <img src="https://github.com/allamo123.png?size=150">
 </a>
