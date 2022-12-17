@@ -170,7 +170,7 @@ The select device input let you to modify page html and styles on different scre
 The View Panel consists of 4 buttons :-
 - [Block Manager](#block-manager)
 - [Layer Manager](#layer-manager)
-- [Components Settings](#full-screen)
+- [Components Settings](#components-settings)
 - [Style Manager](#view-code)
 
 
@@ -215,3 +215,15 @@ The Block Manager Comes with Bootstrap Components :-
 Another utility tool you might find useful when working with web elements is the layer manger. It's a tree overview of the structure nodes and enables you to manage it easier.<br>
 
 <p align="left"><img src="./screenshots/layer_manager_screenshot.png" width="790"></p><br>
+
+#### Components Settings
+<p align="left"><img src="./screenshots/component_settings_screenshot.png" width="790"></p><br>
+The component Setiings let you to modify component settings for example, if you select from the canvas link element and got to component settings you will find the following:
+
+* The attribute of href link
+* The attribute of target
+* The attribute of toggle
+* Laravel Auth option, for show element
+* Laravel Auth Guard option, for show element. (default is web)
+* The attribute of id
+* The attribute of title
