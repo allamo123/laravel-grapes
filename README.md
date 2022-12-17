@@ -6,6 +6,19 @@
 </p>
 <p align="left"><img src="./screenshots/screenshot_01.png"></p>
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-laravel-grapes">About Laravel Grapes</a>
+    </li>
+    <li>
+      <a href="#installation-steps">Installation Steps</a>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+  </ol>
+</details>
+
 ## About Laravel Grapes
 
 Laravel Grapes is a library for laravel framework, that offer cms drag and drop page builder for frontend which support all Laravel functionality and help user to change all frontend and content just in simple clicks.
@@ -69,7 +82,7 @@ Start Customizing Laravel Grapes Builder As You Wish.
 
 <hr>
 
-## How To Use
+## Usage
 
 The Controll Panel Consists Of 3 Panels :-
 
