@@ -305,4 +305,6 @@ The Style manager is composed by sectors, which group inside different types of 
 - Extra
   - [ ] Tarnsitions 
   - [ ] Prespective 
-  - [ ] Transform 
+  - [ ] Transform<br>
+
+[![](https://opencollective.com/html-react-parser/contributors.svg?width=890&button=false)](https://github.com/allamo123/laravel-grapes/contributors)
