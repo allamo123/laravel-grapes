@@ -166,3 +166,9 @@ The select device input let you to modify page html and styles on different scre
 - Extra Small
 - Mobile Portrait
 
+### 3. View Panel
+The View Panel consists of 4 buttons :-
+- [Block Manager](#view-components)
+- [Layer Manager](#preview)
+- [Components Settings](#full-screen)
+- [Style Manager](#view-code)
