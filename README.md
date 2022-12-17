@@ -13,6 +13,9 @@
         <a href="#about-laravel-grapes">About Laravel Grapes</a>
     </li>
     <li>
+        <a href="#regular-version-vs-pro-version">Diffrence between regular version and pro version</a>
+    </li>
+    <li>
         <a href="#installation-steps">Installation Steps</a>
     </li>
     <li>
