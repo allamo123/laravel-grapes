@@ -333,6 +333,6 @@ The Style manager is composed by sectors, which group inside different types of 
 
 [![Mohamed Allam](https://github.com/allamo123.png?size=90)](https://github.com/allamo123) 
 
-## [License](https://github.com/allamo123/laravel-grapes/blob/main/LICENSE.md)
+## [License](https://github.com/allamo123/laravel-grapes/blob/main/LICENSE)
 
 MIT © [Mohamed Allam ](https://github.com/allamo123)
