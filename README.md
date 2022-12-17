@@ -80,7 +80,7 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 | Laravel Auth user Condition   | yes             | yes         |
 | Laravel Auth Dynamic Guard    | yes             | yes         |
 | Multilingual                  | No              | yes         |
-| Dynamic Laravel Model widgets | No              | unlimted    |
+| Dynamic Laravel Model widgets | 1               | unlimted    |
 
 
 <hr>
