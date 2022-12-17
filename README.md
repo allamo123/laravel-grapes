@@ -217,7 +217,6 @@ Another utility tool you might find useful when working with web elements is the
 <p align="left"><img src="./screenshots/layer_manager_screenshot.png" width="790"></p><br>
 
 #### Components Settings
-<p align="left"><img src="./screenshots/component_settings_screenshot.png" width="790"></p><br>
 The component Setiings let you to modify component settings for example, if you select from the canvas link element and got to component settings you will find the following:
 
 * The attribute of href link
@@ -226,4 +225,6 @@ The component Setiings let you to modify component settings for example, if you 
 * Laravel Auth option, for show element
 * Laravel Auth Guard option, for show element. (default is web)
 * The attribute of id
-* The attribute of title
+* The attribute of title<br>
+
+<p align="left"><img src="./screenshots/component_settings_screenshot.png" width="790"></p><br>
