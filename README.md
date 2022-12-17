@@ -204,3 +204,9 @@ The Block Manager Comes with Bootstrap Components :-
   - [ ] Header
   - [ ] Paragraph
   - [ ] Separator
+
+- Templates which holds
+  - [ ] 5 prebuilt templates
+
+- Saved which holds
+  - [ ] All your saved custom components
