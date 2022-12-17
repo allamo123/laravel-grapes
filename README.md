@@ -326,7 +326,7 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Prespective 
   - [ ] Transform<br>
 
-### Customize Style
+### 4. Customize Style
 Go to public/css/laravel-grapes.css and start Customizing Laravel Grapes Builder style sheet As You Wish.
 
 ## Author
