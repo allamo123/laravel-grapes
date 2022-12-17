@@ -233,7 +233,7 @@ The component Setiings let you to modify component settings and each component c
 
 The Style manager is composed by sectors, which group inside different types of CSS properties. So you can add, for instance, a Dimension sector for width and height, and another one as Typography for font-size and color and more. So it's up to you decide how organize sectors.<br>
 
-<p align="left"><img src="./screenshots/component_settings_screenshot.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/style_manager_screenshot.png" width="790"></p><br>
 
 - Classes
   - [ ] State (for styling the hover effect, and click, etc...)
