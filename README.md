@@ -177,7 +177,7 @@ The View Panel consists of 4 buttons :-
 #### Block Manager
 The Block Manager Comes with:-
 - Layout Components which holds
-  * Navbar
+  [ ] Navbar
   + Section
   + Container
   + Row
