@@ -325,4 +325,4 @@ The Style manager is composed by sectors, which group inside different types of 
 
 ## Created By
 
-[![Mohamed Allam](https://github.com/allamo123.png?size=150)](https://github.com/allamo123)
+[![Mohamed Allam](https://github.com/allamo123.png?size=150)](https://github.com/allamo123) | Mohamed Allam<br>Mohamed_allam@windwoslive.com
