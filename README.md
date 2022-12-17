@@ -10,12 +10,48 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-laravel-grapes">About Laravel Grapes</a>
+        <a href="#about-laravel-grapes">About Laravel Grapes</a>
     </li>
     <li>
-      <a href="#installation-steps">Installation Steps</a>
+        <a href="#installation-steps">Installation Steps</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li>
+        <a href="#usage">Usage</a>
+        <ul>
+            <li>
+                <a href="#1-options-panel">Options Panel</a>
+                <ul>
+                    <li><a href="#view-components">View Components</a></li>
+                    <li><a href="#preview">Preview</a></li>
+                    <li><a href="#full-screen">Full Screen</a></li>
+                    <li><a href="#view-code">View Code</a></li>
+                    <li><a href="#create-new-page">Create New Page</a></li>
+                    <li><a href="#Edit Code">Edit Code</a></li>
+                    <li><a href="#Component Manager">Component Manager</a></li>
+                    <li><a href="#page-manager">Page Manager</a></li>
+                    <li><a href="#clear-canvas">Clear Canvas</a></li>
+                    <li><a href="#save-component">Save Component</a></li>
+                    <li><a href="#save-changes">Save Changes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#2-page-panel">Page Panel</a>
+                <ul>
+                    <li><a href="#select-page">Select Page</a></li>
+                    <li><a href="#select-device">Select Device</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#3-view-panel">View Panel</a>
+                <ul>
+                    <li><a href="#block-manager">Block Manager</a></li>
+                    <li><a href="#layer-manager">Layer Manager</a></li>
+                    <li><a href="#component-settings">Component Settings</a></li>
+                    <li><a href="#style-manager">Style Manager</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
   </ol>
 </details>
 
