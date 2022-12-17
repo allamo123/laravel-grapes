@@ -290,6 +290,7 @@ Each component come with it's own settings you can modify it for example, if you
 * The attribute of href link
 * The attribute of target
 * The attribute of toggle
+* Show Laravel Auth User Email
 * Laravel Auth User option, for show element
 * Laravel Auth Guard option, for show element. (default is web)
 * The attribute of id
