@@ -175,7 +175,7 @@ The View Panel consists of 4 buttons :-
 
 
 #### Block Manager
-The Block Manager Comes with:-
+The Block Manager Comes with Bootstrap Components :-
 - Layout which holds
   - [ ] Navbar
   - [ ] Section
