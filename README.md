@@ -217,7 +217,7 @@ Another utility tool you might find useful when working with web elements is the
 <p align="left"><img src="./screenshots/layer_manager_screenshot.png" width="790"></p><br>
 
 #### Components Settings
-The component Setiings let you to modify component settings and each component come with it's own settings for example, if you select from the canvas link element and got to component settings you will find the following:
+Each component come with it's own settings YOU can modify it for example, if you select from the canvas link element and got to component settings you will find the following:
 
 * The attribute of href link
 * The attribute of target
