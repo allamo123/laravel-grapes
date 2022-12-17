@@ -3,34 +3,7 @@
     author: mohamed allam
     author-github:  https://github.com/allamo123
 *************************************************/
-/*
-  New Pattern Color System
-  With this should be easier to overwrite colors
-  not only in SCSS but even CSS
-*/
-/* Dark theme */
-/* Light: #573454 Dark: #3b2639 -moz-linear-gradient(top, #fca99b 0%, #6e2842 100%) */
-/* l: #d8d7db */
-/* darken($mainColor, 4%) - #383838 */
-/* #515151 */
-/* Color Helpers */
-/* Canvas */
-/* Components / Inputs */
-/* #d5d5d5 */
-/* b1b1b1 */
-/* #252525 */
-/* 303030 */
-/* Class manager */
-/* File uploader */
-/* Commands */
-/* Fonts */
-/* Tools */
-/* Class names prefixes */ /***
-Spectrum Colorpicker v1.8.1
-https://github.com/bgrins/spectrum
-Author: Brian Grinstead
-License: MIT
-***/
+
 .sp-container {
   position: absolute;
   top: 0;
