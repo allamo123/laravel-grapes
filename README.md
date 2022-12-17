@@ -307,4 +307,6 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Prespective 
   - [ ] Transform<br>
 
-[![](https://opencollective.com/allamo123/contributors.svg?width=890&button=false)](https://github.com/allamo123/contributors)
+<a href="https://github.com/allamo123">
+  <img src="https://github.com/allamo123.png?size=50">
+</a>
