@@ -76,7 +76,9 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 | Multilingual               | No              | yes         |
 | Dynamic Model widgets      | 2               | unlimted    |
 
+
 <hr>
+
 ## Installation Steps
 
 ```jsx 
