@@ -307,4 +307,4 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Prespective 
   - [ ] Transform<br>
 
-[![](https://opencollective.com/allamo123/laravel-grapes/contributors.svg?width=890&button=false)](https://github.com/allamo123/laravel-grapes/contributors)
+[![](https://opencollective.com/allamo123/contributors.svg?width=890&button=false)](https://github.com/allamo123/contributors)
