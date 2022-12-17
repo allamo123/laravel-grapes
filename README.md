@@ -324,9 +324,9 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Transform<br>
 
 ## Created By
-<div>
-    <a float="left" href="https://github.com/allamo123">
+<p float="left">
+    <a href="https://github.com/allamo123">
         <img src="https://github.com/allamo123.png?size=150">
     </a>
-    <p float="right">test<p>
-</div>
+</p>
+<p float="right">test<p>
