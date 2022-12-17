@@ -217,7 +217,7 @@ Another utility tool you might find useful when working with web elements is the
 <p align="left"><img src="./screenshots/layer_manager_screenshot.png" width="790"></p><br>
 
 #### Components Settings
-The component Setiings let you to modify component settings for example, if you select from the canvas link element and got to component settings you will find the following:
+The component Setiings let you to modify component settings and each component come with it's own settings for example, if you select from the canvas link element and got to component settings you will find the following:
 
 * The attribute of href link
 * The attribute of target
@@ -231,7 +231,9 @@ The component Setiings let you to modify component settings for example, if you 
 
 #### Style Manager
 
-The Style manager is composed by sectors, which group inside different types of CSS properties. So you can add, for instance, a Dimension sector for width and height, and another one as Typography for font-size and color and more. So it's up to you decide how organize sectors.
+The Style manager is composed by sectors, which group inside different types of CSS properties. So you can add, for instance, a Dimension sector for width and height, and another one as Typography for font-size and color and more. So it's up to you decide how organize sectors.<br>
+
+<p align="left"><img src="./screenshots/component_settings_screenshot.png" width="790"></p><br>
 
 - Classes
   - [ ] State (for styling the hover effect, and click, etc...)
