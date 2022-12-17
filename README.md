@@ -63,6 +63,10 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 
 <hr>
 
+| Feature         | Regular Version | Pro Version |
+|-----------------|-----------------|-------------|
+| crf             | yes             | yes         |
+
 ## Installation Steps
 
 ```jsx 
