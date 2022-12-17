@@ -74,13 +74,13 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 
 ## Diffrence Between Regular Version And Pro Version
 
-| Feature                     | Regular Version | Pro Version |
-|-----------------------------|-----------------|-------------|
-| Laravel crf                 | yes             | yes         |
-| Laravel Auth user Condition | yes             | yes         |
-| Laravel Auth Dynamic Guard  | yes             | yes         |
-| Multilingual                | No              | yes         |
-| Dynamic Model widgets       | No              | unlimted    |
+| Feature                       | Regular Version | Pro Version |
+|-------------------------------|-----------------|-------------|
+| Laravel crf                   | yes             | yes         |
+| Laravel Auth user Condition   | yes             | yes         |
+| Laravel Auth Dynamic Guard    | yes             | yes         |
+| Multilingual                  | No              | yes         |
+| Dynamic Laravel Model widgets | No              | unlimted    |
 
 
 <hr>
