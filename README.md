@@ -323,6 +323,6 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Prespective 
   - [ ] Transform<br>
 
-## Created By
+## Author
 
-[![Mohamed Allam](https://github.com/allamo123.png?size=150)](https://github.com/allamo123) | |---|Mohamed Allam
+[![Mohamed Allam](https://github.com/allamo123.png?size=100)](https://github.com/allamo123) 
