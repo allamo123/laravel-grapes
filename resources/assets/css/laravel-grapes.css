@@ -2122,7 +2122,8 @@ span.CodeMirror-selectedtext {
 .gjs-clm-select option,
 .gjs-sm-select option,
 .gjs-fields option,
-.gjs-sm-unit option {
+.gjs-sm-unit option,
+.gjs-field.gjs-field-class_select option {
   background-color: #573454;
   color: #ddd;
 }
