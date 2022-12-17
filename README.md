@@ -171,7 +171,7 @@ The View Panel consists of 4 buttons :-
 - [Block Manager](#block-manager)
 - [Layer Manager](#layer-manager)
 - [Components Settings](#components-settings)
-- [Style Manager](#view-code)
+- [Style Manager](#style-manager)
 
 
 #### Block Manager
@@ -228,3 +228,29 @@ The component Setiings let you to modify component settings for example, if you 
 * The attribute of title<br>
 
 <p align="left"><img src="./screenshots/component_settings_screenshot.png" width="790"></p><br>
+
+#### Style Manager
+
+The Block Manager Comes with Bootstrap Components :-
+- Classes
+  - [ ] State (for styling the hover effect, and click, etc...)
+  - [ ] Add class
+  - [ ] remove class
+
+- General
+  - [ ] Float Options
+  - [ ] Display Options
+  - [ ] Position Options
+
+- Flex Options
+
+- Dimension Options
+
+- Typography Options
+
+- Decorations Options
+
+- Extra
+  - [ ] Tarnsitions 
+  - [ ] Prespective 
+  - [ ] Transform 
