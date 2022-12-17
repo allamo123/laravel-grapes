@@ -330,8 +330,3 @@ The Style manager is composed by sectors, which group inside different types of 
     </a>
     <p>test<p>
 </div>
-<style>
-    .holder {
-        display: flex;
-    }
-</style>
