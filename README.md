@@ -169,7 +169,7 @@ The select device input let you to modify page html and styles on different scre
 ### 3. View Panel
 The View Panel consists of 4 buttons :-
 - [Block Manager](#block-manager)
-- [Layer Manager](#preview)
+- [Layer Manager](#layer-manager)
 - [Components Settings](#full-screen)
 - [Style Manager](#view-code)
 
@@ -209,7 +209,7 @@ The Block Manager Comes with Bootstrap Components :-
   - [ ] 5 prebuilt templates
 
 - Saved which holds
-  - [ ] All your saved custom 
+  - [ ] All your saved custom<br> 
   
 #### Layer Manager
 Another utility tool you might find useful when working with web elements is the layer manger. It's a tree overview of the structure nodes and enables you to manage it easier.<br>
