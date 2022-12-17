@@ -79,7 +79,7 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 
 | Feature                           | Regular Version | Pro Version |
 |-----------------------------------|-----------------|-------------|
-| Laravel crf                       | yes             | yes         |
+| Laravel csrf                      | yes             | yes         |
 | Laravel Auth user Condition       | yes             | yes         |
 | Laravel Auth Dynamic Guard        | yes             | yes         |
 | Multilingual                      | No              | yes         |
