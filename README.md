@@ -53,6 +53,9 @@
                     <li><a href="#style-manager">Style Manager</a></li>
                 </ul>
             </li>
+            <li>
+                <a href="#customize-style">Customize Builder Style</a>
+            </li>
         </ul>
     </li>
     <li>
@@ -132,14 +135,6 @@ Navigate to builder route [your-domain.com/builder_prefix/front-end-builder](#1-
 
 <hr>
 
-### Customize Style
-
-#### Go to public/css/laravel-grapes.css
-
-Start Customizing Laravel Grapes Builder As You Wish.
-
-<hr>
-
 ## Usage
 
 The Controll Panel Consists Of 3 Panels :-
@@ -149,6 +144,8 @@ The Controll Panel Consists Of 3 Panels :-
 [2) Page Panel](#2-page-panel) <br>
 
 [3) View Panel](#3-view-panel) <br>
+
+[4) Customize Builder Style](#customize-style) <br>
 
 ### 1. Options Panel
 <p align="left"><img src="./screenshots/options_panel_screenshot.png" width="400"></p><br>
@@ -328,6 +325,9 @@ The Style manager is composed by sectors, which group inside different types of 
   - [ ] Tarnsitions 
   - [ ] Prespective 
   - [ ] Transform<br>
+
+### Customize Style
+Go to public/css/laravel-grapes.css and start Customizing Laravel Grapes Builder style sheet As You Wish.
 
 ## Author
 
