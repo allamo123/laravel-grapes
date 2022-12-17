@@ -13,7 +13,7 @@
         <a href="#about-laravel-grapes">About Laravel Grapes</a>
     </li>
     <li>
-        <a href="#regular-version-vs-pro-version">Diffrence between regular version and pro version</a>
+        <a href="#regular-version-vs-pro-version">Diffrence Between Regular Version And Pro Version</a>
     </li>
     <li>
         <a href="#installation-steps">Installation Steps</a>
@@ -66,7 +66,7 @@ Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codec
 
 <hr>
 
-## Regular Version Vs Pro Version
+## Diffrence Between Regular Version And Pro Version
 
 | Feature                    | Regular Version | Pro Version |
 |----------------------------|-----------------|-------------|
