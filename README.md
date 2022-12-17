@@ -55,6 +55,12 @@
             </li>
         </ul>
     </li>
+    <li>
+        <a href="#author">Author</a>
+    </li>
+    <li>
+        <a href="#license">License</a>
+    </li>
   </ol>
 </details>
 
