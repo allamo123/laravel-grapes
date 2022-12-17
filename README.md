@@ -168,7 +168,19 @@ The select device input let you to modify page html and styles on different scre
 
 ### 3. View Panel
 The View Panel consists of 4 buttons :-
-- [Block Manager](#view-components)
+- [Block Manager](#block-manager)
 - [Layer Manager](#preview)
 - [Components Settings](#full-screen)
 - [Style Manager](#view-code)
+
+
+#### Block Manager
+The Block Manager Comes with:-
+- Layout Components which holds
+  + Navbar
+  + Section
+  + Container
+  + Row
+  + Column
+  + Column break
+  + Media Object
