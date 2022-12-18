@@ -84,6 +84,7 @@ Laravel Grapes Comes With A Pro Version Will Be Available On [Code Canyon](https
 | Laravel Auth Dynamic Guard        | yes             | yes         |
 | Multilingual                      | No              | yes         |
 | Dynamic Laravel Shortcode widgets | 1               | unlimted    |
+| Dynamic Routes /{id}              | No              | yes         |
 
 
 <hr>
