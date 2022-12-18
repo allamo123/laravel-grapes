@@ -185,7 +185,7 @@ The view code button show you the html and css code of the page like sceenshot b
 
 The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .<br>
 
-Don't forget to remove the default route in routes/web.php becaues it will conflict with home page
+Don't forget to remove the default route in routes/web.php becaues it will conflict with home page, you don't need web.php for frontend routes because laravel grapes come with it own route file
 
 ``` jsx
 <?php
