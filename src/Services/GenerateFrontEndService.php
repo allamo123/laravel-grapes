@@ -87,7 +87,6 @@ class GenerateFrontEndService {
             $this->renameFile($old_view_name, $new_view_name);
             $this->updateBladeStyleFile($new_target_view, $old_target_view);
         }
-
         if (file_exists($old_style_sheet_name)) {
             $this->renameFile($old_style_sheet_name, $new_style_sheet_name);
         }
@@ -188,7 +187,7 @@ class GenerateFrontEndService {
         $slug = $page->slug === '/' ? 'home-page' : $page->slug;
         $this->removeView($slug);
         $this->removeStyleSheet($slug);
-        $this->removeRoute($page->slug);
+        $this->removeRoute($slug);
     }
 
     protected function removeView($slug)
@@ -218,7 +217,7 @@ class GenerateFrontEndService {
     {
         $routes = __DIR__.'./../../routes/frontend.php';
 
-        $method_name = $this->getControllerMethodName($route === '/' ? 'home-page' : $route);
+        $method_name = $this->getControllerMethodName($route);
 
         if ($route === '/') {
             file_put_contents($routes, str_replace(
