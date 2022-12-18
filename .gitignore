@@ -1,1 +1,3 @@
 /resources/Views/pages
+/routes/frontend.php
+/src/Http/Controllers/FrontendController.php
