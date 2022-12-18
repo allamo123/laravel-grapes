@@ -42,12 +42,11 @@ class PageRepository implements PageRepositoryInterface
     {
         $page = Page::findOrFail($id);
 
-        // # for update page if home page
-        // if ($newPageDetails['slug'] === '/') {
-        //     dd('slug home');
-        // }
+        $old_slug = $page->slug;
 
         $page->update($newPageDetails);
+
+        $this->generate_frontend_service->updateRouteName($old_slug, $page->slug);
 
         return [
             'success' => true,

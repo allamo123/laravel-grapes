@@ -19,6 +19,74 @@ class GenerateFrontEndService {
 
     }
 
+    public function updateRouteName($old_slug, $new_slug)
+    {
+        $routes = __DIR__.'./../../routes/frontend.php';
+
+        $old_method = $this->getControllerMethodName($old_slug);
+
+        $new_method = $this->getControllerMethodName($new_slug);
+
+        if ($old_slug === '/') {
+            file_put_contents($routes, str_replace(
+                "Route::get('/', [FrontendController::class, '".$old_method."']);\n",
+                "Route::get('".$new_slug."', [FrontendController::class, '".$new_method."']);\n",
+                file_get_contents($routes)
+            ));
+        }
+        else {
+            file_put_contents($routes, str_replace(
+                "Route::get('".$old_slug."', [FrontendController::class, '".$old_method."']);\n",
+                "Route::get('".$new_slug."', [FrontendController::class, '".$new_method."']);\n",
+                file_get_contents($routes)
+            ));
+        }
+
+        $this->updateControllerMethod($old_slug, $new_slug, $new_method, $old_method);
+    }
+
+    protected function getControllerMethodName($slug)
+    {
+        $method = $slug === '/' ? 'home-page' : $slug;
+
+        $slug_remove_dash = explode('-', $method);
+
+        foreach ($slug_remove_dash as $key => $value) {
+            $slug_remove_dash[$key] = ucwords($value);
+        }
+
+        return $method_name = implode($slug_remove_dash);
+    }
+
+    protected function updateControllerMethod($old_view, $new_view, $new_method, $old_method)
+    {
+        $controller = __DIR__.'./../Http/Controllers/FrontendController.php';
+
+        $new_target_view = $new_view === '/' ? 'home-page' : $new_view;
+
+        $old_target_view = $old_view === '/' ? 'home-page' : $old_view;
+
+        $old_method_content = "\n    public function ".$old_method."() \n    {\n       return view('lg::pages/".$old_target_view."');\n    }\n";
+
+        $new_method_content = "\n    public function ".$new_method."() \n    {\n       return view('lg::pages/".$new_target_view."');\n    }\n";
+
+        $content = file_get_contents($controller);
+
+        file_put_contents($controller, str_replace(
+            $old_method_content,
+            $new_method_content,
+            file_get_contents($controller)
+        ));
+
+        $old_view_name = __DIR__.'./../../resources/views/pages/'.$old_target_view.'.blade.php';
+        $new_view_name = __DIR__.'./../../resources/views/pages/'.$new_target_view.'.blade.php';
+        $old_style_sheet_name = public_path('css/lg-frontend/'.$old_target_view.'.css');
+        $new_style_sheet_name = public_path('css/lg-frontend/'.$new_target_view.'.css');
+
+        $this->renameFile($old_view_name, $new_view_name);
+        $this->renameFile($old_style_sheet_name, $new_style_sheet_name);
+    }
+
     private function createBladeFile($slug, $html)
     {
         $file_name = $slug.'.blade.php';
@@ -59,13 +127,7 @@ class GenerateFrontEndService {
     {
         $routes = __DIR__.'./../../routes/frontend.php';
 
-        $slug_remove_dash = explode('-', $slug);
-
-        foreach ($slug_remove_dash as $key => $value) {
-            $slug_remove_dash[$key] = ucwords($value);
-        }
-
-        $method_name = implode($slug_remove_dash);
+        $method_name = $this->getControllerMethodName($slug);
 
         if ($route === '/') {
             file_put_contents($routes, file_get_contents($routes)."Route::get('/', [FrontendController::class, '".$method_name."']);\n");
@@ -121,6 +183,11 @@ class GenerateFrontEndService {
         }
     }
 
+    protected function renameFile($file, $newName)
+    {
+        rename($file, $newName);
+    }
+
     protected function removeStyleSheet($slug)
     {
         $file_name = $slug.'.css';
@@ -134,15 +201,7 @@ class GenerateFrontEndService {
     {
         $routes = __DIR__.'./../../routes/frontend.php';
 
-        $method = $route === '/' ? 'home-page' : $route;
-
-        $slug_remove_dash =  explode('-', $method);
-
-        foreach ($slug_remove_dash as $key => $value) {
-            $slug_remove_dash[$key] = ucwords($value);
-        }
-
-        $method_name = implode($slug_remove_dash);
+        $method_name = $this->getControllerMethodName($route);
 
         if ($route === '/') {
             file_put_contents($routes, str_replace(
@@ -159,7 +218,7 @@ class GenerateFrontEndService {
             ));
         }
 
-        $this->removeControllerMethod($method_name, $method);
+        $this->removeControllerMethod($method_name, $route);
     }
 
     protected function removeControllerMethod($method_name, $view)
