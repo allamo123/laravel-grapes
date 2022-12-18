@@ -12,3 +12,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 use MSA\LaravelGrapes\Http\Controllers\FrontendController;
+

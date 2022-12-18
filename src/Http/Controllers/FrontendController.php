@@ -8,5 +8,4 @@ use MSA\LaravelGrapes\Http\Controllers\Controller;
 class FrontendController extends Controller
 {
 
-
 }
