@@ -166,7 +166,7 @@ class GenerateFrontEndService {
     {
         $controller = __DIR__.'./../Http/Controllers/FrontendController.php';
 
-        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::".$view."');\n    }\n";
+        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::/pages".$view."');\n    }\n";
 
         file_put_contents($controller, str_replace($method, '', file_get_contents($controller)));
     }
