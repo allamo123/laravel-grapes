@@ -9,9 +9,4 @@ class FrontendController extends Controller
 {
 
 
-    public function Demo() 
-    {
-       return view('lg::pages/demo');
-    }
-
 }
