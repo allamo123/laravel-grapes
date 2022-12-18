@@ -185,6 +185,30 @@ The view code button show you the html and css code of the page like sceenshot b
 
 The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .<br>
 
+Don't forget to remove the default route in routes/web.php becaues it will conflict with home page
+
+``` jsx
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+```
+
 <p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p><br>
 After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.<br><br>
 
