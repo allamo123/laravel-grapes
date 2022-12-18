@@ -71,7 +71,7 @@
 
 Laravel Grapes is a library for laravel framework, that offer cms drag and drop page builder for frontend which support all Laravel functionality and help user to change all frontend and content just in simple clicks.
 
-Laravel Grapes Comes With A Pro Version Available On [Code Canyon](https://codecanyon.net/) SOON !.
+Laravel Grapes Comes With A Pro Version Will Be Available On [Code Canyon](https://codecanyon.net/) SOON !.
 
 ##### After The Pro version Ready Will Do An Announcment.
 
