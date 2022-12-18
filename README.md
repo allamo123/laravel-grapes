@@ -185,6 +185,9 @@ The view code button show you the html and css code of the page like sceenshot b
 
 The create new page button at topbar when you press on it, the popup modal open with new page form, so fill page name and slug and if you need the page become a home page type slug /  .<br>
 
+<p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p><br>
+After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.<br>
+
 Don't forget to remove the default route in routes/web.php becaues it will conflict with home page, you don't need web.php for frontend routes because laravel grapes come with it own route file
 
 ``` jsx
@@ -207,10 +210,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-```
-
-<p align="left"><img src="./screenshots/screenshot_03.png" width="790"></p><br>
-After submit the form will receive toast notification tha page creaded successfully, so select the new page throw select page input on the top bar to start modifying the page.<br><br>
+``` 
+<br>
 
 #### Edit Code
 The edit code button it will open a popup code editor modal that hold page code including html and css.<br>
