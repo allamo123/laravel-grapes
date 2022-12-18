@@ -83,16 +83,20 @@ class GenerateFrontEndService {
         $old_style_sheet_name = public_path('css/lg-frontend/'.$old_target_view.'.css');
         $new_style_sheet_name = public_path('css/lg-frontend/'.$new_target_view.'.css');
 
-        $this->renameFile($old_view_name, $new_view_name);
-        $this->renameFile($old_style_sheet_name, $new_style_sheet_name);
-        $this->updateBladeStyleFile($new_target_view, $old_target_view);
+        if (file_exists($old_view_name)) {
+            $this->renameFile($old_view_name, $new_view_name);
+            $this->updateBladeStyleFile($new_target_view, $old_target_view);
+        }
+
+        if (file_exists($old_style_sheet_name)) {
+            $this->renameFile($old_style_sheet_name, $new_style_sheet_name);
+        }
     }
 
     private function updateBladeStyleFile($new, $old)
     {
         $blade = __DIR__.'./../../resources/views/pages/'.$new.'.blade.php';
 
-        // dd(file_get_contents($blade));
         file_put_contents($blade, str_replace(
             "<link rel='stylesheet' href='{{asset('css/lg-frontend/".$old.".css')}}'/>",
             "<link rel='stylesheet' href='{{asset('css/lg-frontend/".$new.".css')}}'/>",
