@@ -115,7 +115,7 @@ class GenerateFrontEndService {
     protected function removeView($slug)
     {
         $file_name = $slug === '/' ? 'home-page.blade.php' : $slug.'.blade.php';
-        $view = __DIR__.'./../../resources/views/'.$file_name;
+        $view = __DIR__.'./../../resources/views/pages'.$file_name;
         if (file_exists($view)) {
             unlink($view);
         }
@@ -166,7 +166,7 @@ class GenerateFrontEndService {
     {
         $controller = __DIR__.'./../Http/Controllers/FrontendController.php';
 
-        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::/pages".$view."');\n    }\n";
+        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::pages/".$view."');\n    }\n";
 
         file_put_contents($controller, str_replace($method, '', file_get_contents($controller)));
     }
