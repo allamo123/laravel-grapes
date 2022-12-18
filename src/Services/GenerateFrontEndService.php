@@ -12,9 +12,10 @@ class GenerateFrontEndService {
         $html      = $this->htmlInitialization($page_data['gjs-html']);
         $styles    = $page_data['gjs-css'];
 
-        $this->generateStyleSheet($styles, $page->slug);
-        $this->createBladeFile($page->slug, $html);
-        $this->generateRoute($page->slug);
+        $slug = $page->slug === '/' ? 'home-page' : $page->slug;
+        $this->generateStyleSheet($styles, $slug);
+        $this->createBladeFile($slug, $html);
+        $this->generateRoute($slug, $page->slug);
 
     }
 
@@ -22,7 +23,11 @@ class GenerateFrontEndService {
     {
         $file_name = $slug.'.blade.php';
 
-        $dir_path = __DIR__.'./../../resources/views/';
+        $dir_path = __DIR__.'./../../resources/views/pages/';
+
+        if (!is_dir($dir_path)) {
+            mkdir($dir_path);
+        }
 
         $file = fopen($dir_path.$file_name, 'w');
 
@@ -50,12 +55,11 @@ class GenerateFrontEndService {
         fclose($file);
     }
 
-    protected function generateRoute($slug)
+    protected function generateRoute($slug, $route)
     {
         $routes = __DIR__.'./../../routes/frontend.php';
 
-
-        $slug_remove_dash =  explode('-', $slug);
+        $slug_remove_dash = explode('-', $slug);
 
         foreach ($slug_remove_dash as $key => $value) {
             $slug_remove_dash[$key] = ucwords($value);
@@ -63,9 +67,12 @@ class GenerateFrontEndService {
 
         $method_name = implode($slug_remove_dash);
 
-        if (!str_contains(file_get_contents($routes), $slug)) {
+        if ($route === '/') {
+            file_put_contents($routes, file_get_contents($routes)."Route::get('/', [FrontendController::class, '".$method_name."']);\n");
+        }
 
-            file_put_contents($routes, file_get_contents($routes)."Route::get('".$slug."', [FrontendController::class, '".$method_name."']);\n");
+        if(!str_contains(file_get_contents($routes), $route)) {
+            file_put_contents($routes, file_get_contents($routes)."Route::get('".$route."', [FrontendController::class, '".$method_name."']);\n");
         }
 
         $this->addControllerMethod($method_name, $slug);
@@ -76,7 +83,9 @@ class GenerateFrontEndService {
     {
         $controller = __DIR__.'./../Http/Controllers/FrontendController.php';
 
-        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::".$slug."');\n    }\n";
+        $target_view = $slug === '/' ? 'home-page' : $slug;
+
+        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::pages/".$target_view."');\n    }\n";
 
         $content = file_get_contents($controller);
 
@@ -97,14 +106,15 @@ class GenerateFrontEndService {
 
     public function destroyPage($page)
     {
-        $this->removeView($page->slug);
-        $this->removeStyleSheet($page->slug);
+        $slug = $page->slug === '/' ? 'home-page' : $page->slug;
+        $this->removeView($slug);
+        $this->removeStyleSheet($slug);
         $this->removeRoute($page->slug);
     }
 
     protected function removeView($slug)
     {
-        $file_name = $slug.'.blade.php';
+        $file_name = $slug === '/' ? 'home-page.blade.php' : $slug.'.blade.php';
         $view = __DIR__.'./../../resources/views/'.$file_name;
         if (file_exists($view)) {
             unlink($view);
@@ -124,8 +134,9 @@ class GenerateFrontEndService {
     {
         $routes = __DIR__.'./../../routes/frontend.php';
 
+        $method = $route === '/' ? 'home-page' : $route;
 
-        $slug_remove_dash =  explode('-', $route);
+        $slug_remove_dash =  explode('-', $method);
 
         foreach ($slug_remove_dash as $key => $value) {
             $slug_remove_dash[$key] = ucwords($value);
@@ -133,20 +144,29 @@ class GenerateFrontEndService {
 
         $method_name = implode($slug_remove_dash);
 
-        file_put_contents($routes, str_replace(
-            "Route::get('".$route."', [FrontendController::class, '".$method_name."']);\n",
-            '',
-            file_get_contents($routes)
-        ));
+        if ($route === '/') {
+            file_put_contents($routes, str_replace(
+                "Route::get('/', [FrontendController::class, '".$method_name."']);\n",
+                '',
+                file_get_contents($routes)
+            ));
+        }
+        else {
+            file_put_contents($routes, str_replace(
+                "Route::get('".$route."', [FrontendController::class, '".$method_name."']);\n",
+                '',
+                file_get_contents($routes)
+            ));
+        }
 
-        $this->removeControllerMethod($method_name, $route);
+        $this->removeControllerMethod($method_name, $method);
     }
 
-    protected function removeControllerMethod($method_name, $slug)
+    protected function removeControllerMethod($method_name, $view)
     {
         $controller = __DIR__.'./../Http/Controllers/FrontendController.php';
 
-        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::".$slug."');\n    }\n";
+        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::".$view."');\n    }\n";
 
         file_put_contents($controller, str_replace($method, '', file_get_contents($controller)));
     }
@@ -160,6 +180,7 @@ class GenerateFrontEndService {
         $text_blocks = $html->find('text');
 
         $this->formatingAuthShortcodes($html);
+        $this->formatingCsrf($html);
 
         // for pro version
         $all_text = $this->formatingTextBlocks($text_blocks);
@@ -199,6 +220,19 @@ class GenerateFrontEndService {
         }
     }
 
+    protected function formatingCsrf($html)
+    {
+        $comments =  $html->find('comment');
+
+        foreach ($comments as $key => $value) {
+
+            if($value->innertext === '- @csrf -')
+            {
+                $value->outertext = str_replace(['<!--- ', ' --->'], '',$value->outertext);
+            }
+        }
+    }
+
     // for pro version
     protected function formatingTextBlocks($text_blocks)
     {
@@ -206,7 +240,7 @@ class GenerateFrontEndService {
 
         foreach ($text_blocks as $block) {
             $text = $block->text();
-            $block->innertext  = "{{__('".$text."')}}";
+            $block->innertext  = '{{__("'.$text.'")}}';
             array_push($all_text, $text);
         }
 

@@ -42,6 +42,11 @@ class PageRepository implements PageRepositoryInterface
     {
         $page = Page::findOrFail($id);
 
+        // # for update page if home page
+        // if ($newPageDetails['slug'] === '/') {
+        //     dd('slug home');
+        // }
+
         $page->update($newPageDetails);
 
         return [

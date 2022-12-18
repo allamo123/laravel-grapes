@@ -11,7 +11,7 @@ class FrontendController extends Controller
 
     public function Demo() 
     {
-       return view('lg::demo');
+       return view('lg::pages/demo');
     }
 
 }

@@ -12,5 +12,3 @@ use Illuminate\Support\Facades\Route;
 |
 */
 use MSA\LaravelGrapes\Http\Controllers\FrontendController;
-
-Route::get('demo', [FrontendController::class, 'Demo']);
