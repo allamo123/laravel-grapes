@@ -218,7 +218,7 @@ class GenerateFrontEndService {
     {
         $routes = __DIR__.'./../../routes/frontend.php';
 
-        $method_name = $this->getControllerMethodName($route);
+        $method_name = $this->getControllerMethodName($route === '/' ? 'home-page' : $route);
 
         if ($route === '/') {
             file_put_contents($routes, str_replace(
