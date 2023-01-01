@@ -7,4 +7,9 @@ return [
     'middleware' => null, // middleware for builder
 
     'frontend_prefix' => '', // prefix for frontend
+
+    /* Define additional translation languages. */
+    'languages' => [
+        'ar',
+    ],
 ];

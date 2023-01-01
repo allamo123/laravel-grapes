@@ -59,6 +59,9 @@
         </ul>
     </li>
     <li>
+        <a href="#translations">Translations</a>
+    </li>
+    <li>
         <a href="#author">Author</a>
     </li>
     <li>
@@ -82,7 +85,7 @@ Laravel Grapes Comes With A Pro Version Will Be Available On [Code Canyon](https
 | Laravel CSRF                      | yes             | yes         |
 | Laravel Auth User Condition       | yes             | yes         |
 | Laravel Auth Dynamic Guard        | yes             | yes         |
-| Multilingual                      | No              | yes         |
+| Multilingual                      | yes             | yes         |
 | Dynamic Laravel Shortcode widgets | 1               | unlimted    |
 | Dynamic Routes /{id}              | No              | yes         |
 
@@ -115,6 +118,12 @@ php artisan migrate
         'middleware' => null, // middleware for builder
 
         'frontend_prefix' => '', // prefix for frontend
+
+        /* Define additional translation languages. */
+        'languages' => [
+            'ar',
+            'es',
+        ],
     ];`
 ```
 
@@ -355,6 +364,11 @@ The Style manager is composed by sectors, which group inside different types of 
 
 ### 4. Customize Builder Style Sheet
 Go to public/css/laravel-grapes.css and start Customizing Laravel Grapes Builder style sheet As You Wish.
+
+## Translations
+Each text component have translation input for your languages that you were defined in [config/lg.php](#go-to-configlgphp).<br>
+
+<p align="left"><img src="./screenshots/translation_screenshot.png" width="790"></p><br>
 
 ## Author
 
