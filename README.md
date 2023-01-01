@@ -366,7 +366,7 @@ The Style manager is composed by sectors, which group inside different types of 
 Go to public/css/laravel-grapes.css and start Customizing Laravel Grapes Builder style sheet As You Wish.
 
 ## Translations
-Each text component have translation input trait for your languages that you were defined in [config/lg.php](#go-to-configlgphp) like the example below you will find Ar Local and Es Local .<br>
+Each text component have translation input trait for your languages that you were defined in [config/lg.php](#go-to-configlgphp),  In the example below you will find Ar Local and Es Local .<br>
 
 <p align="left"><img src="./screenshots/translation-screenshot.png" width="790"></p><br>
 
