@@ -368,7 +368,7 @@ Go to public/css/laravel-grapes.css and start Customizing Laravel Grapes Builder
 ## Translations
 Each text component have translation input for your languages that you were defined in [config/lg.php](#go-to-configlgphp).<br>
 
-<p align="left"><img src="./screenshots/translation_screenshot.png" width="790"></p><br>
+<p align="left"><img src="./screenshots/translation-screenshot.png" width="790"></p><br>
 
 ## Author
 
