@@ -10,4 +10,5 @@ return [
 
     /* Define additional translation languages. */
     'languages' => [],
+
 ];
