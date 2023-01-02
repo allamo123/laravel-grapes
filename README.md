@@ -128,12 +128,8 @@ php artisan migrate
 ```
 
 ##### 1) builder_prefix
-The builder by default come with route [your-domain.com/hello/front-end-builder](#1-builder_prefix).<br>
+The builder by default come with route <code>route('website.builder')</code> which consists of[your-domain.com/hello/front-end-builder](#1-builder_prefix).<br>
 you can change the builder prefix to hi so now the builder load with route prefix hi instead of hello.<br>
-###### route name is website.builder
-``` jsx 
-    route('website.builder')
-```
 
 ##### 2) middleware
 Assign any middleware you want to the builder for example auth:admin.
