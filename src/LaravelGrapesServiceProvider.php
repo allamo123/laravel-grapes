@@ -23,7 +23,6 @@ class LaravelGrapesServiceProvider extends ServiceProvider
         $this->app->bind(BlockRepositoryInterface::class, BlockRepository::class);
 
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'lg');
-        $this->mergeConfigFrom(__DIR__.'/../config/ziggy.php', 'ziggy');
     }
 
     /**
