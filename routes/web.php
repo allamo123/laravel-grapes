@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 // $prefix = 'hello';
 use MSA\LaravelGrapes\Http\Controllers\PageController;
-Route::get('/front-end-builder', [PageController::class, 'index']);
+Route::get('/front-end-builder', [PageController::class, 'index'])->name('website.builder');
 Route::post('/front-end-builder/create-page', [PageController::class, 'store'])->name('new_page.store');
 Route::put('/front-end-builder/update-page-content/{id}', [PageController::class, 'updateContent'])->name('update.page_content');
 Route::put('/front-end-builder/update-page/{id}', [PageController::class, 'update'])->name('update.page');
