@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{config('app.locale')}}" dir="{{config('app.locale') === 'ar' ? 'rtl' : 'ltr'}}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,7 @@
         @stack('page-style')
 
     </head>
-    <body>
+    <body class="{{config('app.locale') === 'ar' ? 'text-right' : ''}}">
         @yield('content')
 
 
