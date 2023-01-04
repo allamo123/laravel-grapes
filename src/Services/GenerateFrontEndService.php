@@ -10,7 +10,7 @@ class GenerateFrontEndService {
 
     public function __construct()
     {
-        $this->langs = config('lg.languages');
+        $this->langs = config('laravel-grapes.languages');
     }
 
     public function generatePage($page)
@@ -73,9 +73,9 @@ class GenerateFrontEndService {
 
         $old_target_view = $old_view === '/' ? 'home-page' : $old_view;
 
-        $old_method_content = "\n    public function ".$old_method."() \n    {\n       return view('lg::pages/".$old_target_view."');\n    }\n";
+        $old_method_content = "\n    public function ".$old_method."() \n    {\n       return view('laravel-grapes::pages/".$old_target_view."');\n    }\n";
 
-        $new_method_content = "\n    public function ".$new_method."() \n    {\n       return view('lg::pages/".$new_target_view."');\n    }\n";
+        $new_method_content = "\n    public function ".$new_method."() \n    {\n       return view('laravel-grapes::pages/".$new_target_view."');\n    }\n";
 
         $content = file_get_contents($controller);
 
@@ -87,8 +87,8 @@ class GenerateFrontEndService {
 
         $old_view_name = __DIR__.'./../../resources/views/pages/'.$old_target_view.'.blade.php';
         $new_view_name = __DIR__.'./../../resources/views/pages/'.$new_target_view.'.blade.php';
-        $old_style_sheet_name = public_path('css/lg-frontend/'.$old_target_view.'.css');
-        $new_style_sheet_name = public_path('css/lg-frontend/'.$new_target_view.'.css');
+        $old_style_sheet_name = public_path('css/laravel-grapes-frontend/'.$old_target_view.'.css');
+        $new_style_sheet_name = public_path('css/laravel-grapes-frontend/'.$new_target_view.'.css');
 
         if (file_exists($old_view_name)) {
             $this->renameFile($old_view_name, $new_view_name);
@@ -104,8 +104,8 @@ class GenerateFrontEndService {
         $blade = __DIR__.'./../../resources/views/pages/'.$new.'.blade.php';
 
         file_put_contents($blade, str_replace(
-            "<link rel='stylesheet' href='{{asset('css/lg-frontend/".$old.".css')}}'/>",
-            "<link rel='stylesheet' href='{{asset('css/lg-frontend/".$new.".css')}}'/>",
+            "<link rel='stylesheet' href='{{asset('css/laravel-grapes-frontend/".$old.".css')}}'/>",
+            "<link rel='stylesheet' href='{{asset('css/laravel-grapes-frontend/".$new.".css')}}'/>",
             file_get_contents($blade)
         ));
     }
@@ -122,7 +122,7 @@ class GenerateFrontEndService {
 
         $file = fopen($dir_path.$file_name, 'w');
 
-        fwrite($file,"@extends('lg::layouts.master')\n\n@push('page-style')\n   <link rel='stylesheet' href='{{asset('css/lg-frontend/".$slug.".css')}}'/>\n@endpush\n@section('content')\n ".$html."\n\n@endsection");
+        fwrite($file,"@extends('laravel-grapes::layouts.master')\n\n@push('page-style')\n   <link rel='stylesheet' href='{{asset('css/laravel-grapes-frontend/".$slug.".css')}}'/>\n@endpush\n@section('content')\n ".$html."\n\n@endsection");
 
         fclose($file);
     }
@@ -133,11 +133,11 @@ class GenerateFrontEndService {
             mkdir(public_path('css'));
         }
 
-        if (!is_dir(public_path('css/lg-frontend'))) {
-            mkdir(public_path('css/lg-frontend'));
+        if (!is_dir(public_path('css/laravel-grapes-frontend'))) {
+            mkdir(public_path('css/laravel-grapes-frontend'));
         }
 
-        $css_file_path = public_path('css/lg-frontend/'.$file_name.'.css');
+        $css_file_path = public_path('css/laravel-grapes-frontend/'.$file_name.'.css');
 
         $file = fopen($css_file_path, 'w');
 
@@ -170,7 +170,7 @@ class GenerateFrontEndService {
 
         $target_view = $slug === '/' ? 'home-page' : $slug;
 
-        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::pages/".$target_view."');\n    }\n";
+        $method = "\n    public function ".$method_name."() \n    {\n       return view('laravel-grapes::pages/".$target_view."');\n    }\n";
 
         $content = file_get_contents($controller);
 
@@ -214,7 +214,7 @@ class GenerateFrontEndService {
     protected function removeStyleSheet($slug)
     {
         $file_name = $slug.'.css';
-        $style_sheet = public_path('css/lg-frontend/'.$file_name);
+        $style_sheet = public_path('css/laravel-grapes-frontend/'.$file_name);
         if(file_exists($style_sheet)) {
             unlink($style_sheet);
         }
@@ -248,7 +248,7 @@ class GenerateFrontEndService {
     {
         $controller = __DIR__.'./../Http/Controllers/FrontendController.php';
 
-        $method = "\n    public function ".$method_name."() \n    {\n       return view('lg::pages/".$view."');\n    }\n";
+        $method = "\n    public function ".$method_name."() \n    {\n       return view('laravel-grapes::pages/".$view."');\n    }\n";
 
         file_put_contents($controller, str_replace($method, '', file_get_contents($controller)));
     }

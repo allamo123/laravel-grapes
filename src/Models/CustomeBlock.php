@@ -9,7 +9,7 @@ class CustomeBlock extends Model
 {
     use HasFactory;
 
-    protected $table = 'custome_blocks';
+    protected $table = 'custom_blocks';
 
     protected $fillable = [
       'name',

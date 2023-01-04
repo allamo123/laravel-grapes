@@ -106,7 +106,7 @@ php artisan migrate
 ```
 
 
-#### Go to config/lg.php
+#### Go to config/laravel-grapes.php
 
 ```jsx
     <?php
@@ -366,7 +366,7 @@ The Style manager is composed by sectors, which group inside different types of 
 Go to public/css/laravel-grapes.css and start Customizing Laravel Grapes Builder style sheet As You Wish.
 
 ## Translations
-Each text component have translation input trait for your languages that you were defined in [config/lg.php](#go-to-configlgphp),  In the example below you will find Ar Local and Es Local .<br>
+Each text component have translation input trait for your languages that you were defined in [config/laravel-grapes.php](#go-to-configlgphp),  In the example below you will find Ar Local and Es Local .<br>
 
 ###### It supported rtl for arabic language (ar)
 

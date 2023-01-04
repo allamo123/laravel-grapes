@@ -22,7 +22,7 @@ class LaravelGrapesServiceProvider extends ServiceProvider
         $this->app->bind(PageRepositoryInterface::class, PageRepository::class);
         $this->app->bind(BlockRepositoryInterface::class, BlockRepository::class);
 
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'lg');
+        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laravel-grapes');
     }
 
     /**
@@ -34,13 +34,13 @@ class LaravelGrapesServiceProvider extends ServiceProvider
     {
         $this->registerRoutes();
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'lg');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-grapes');
 
         if ($this->app->runningInConsole()) {
 
             $this->publishes([
 
-                __DIR__.'/../config/config.php' => config_path('lg.php'),
+                __DIR__.'/../config/config.php' => config_path('laravel-grapes.php'),
                 __DIR__.'/../resources/assets/js/PageBuilder.js' => base_path('public/js/laravel-grapes.js'),
                 __DIR__.'/../resources/assets/css/laravel-grapes.css' => base_path('public/css/laravel-grapes.css'),
                 __DIR__.'/../database/migrations/2022_11_27_020138_create_pages_table.php' => database_path('/migrations/'.date('Y_m_d_His', time()).'_create_pages_table.php'),
@@ -64,7 +64,7 @@ class LaravelGrapesServiceProvider extends ServiceProvider
     protected function routeBuilderConfiguration()
     {
         return [
-            'prefix' => config('lg.builder_prefix'),
+            'prefix' => config('laravel-grapes.builder_prefix'),
             'middleware' => null,
         ];
     }
@@ -72,7 +72,7 @@ class LaravelGrapesServiceProvider extends ServiceProvider
     protected function routeFrontendConfiguration()
     {
         return [
-            'prefix' => config('lg.frontend_prefix'),
+            'prefix' => config('laravel-grapes.frontend_prefix'),
             'middleware' => 'web',
         ];
     }

@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-          "MSA\\LaravelGrapes\\": "src"
+            "MSA\\LaravelGrapes\\": "src"
         }
     },
     "extra": {

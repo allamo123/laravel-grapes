@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('custome_blocks', function (Blueprint $table) {
+        Schema::create('custom_blocks', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->json('block_data');
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('custome_blocks');
+        Schema::dropIfExists('custom_blocks');
     }
 };

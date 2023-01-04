@@ -26,7 +26,7 @@ class PageController extends Controller
     {
         $pages = $this->PageRepository->getAllPages();
 
-        return view('lg::builder_root', compact('pages'));
+        return view('laravel-grapes::builder_root', compact('pages'));
     }
 
     public function allPages()

@@ -11,4 +11,6 @@ return [
     /* Define additional translation languages. */
     'languages' => [],
 
+    'frontend_route_prefix' => 'front-end-builder',
+
 ];
