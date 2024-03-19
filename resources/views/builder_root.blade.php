@@ -11,6 +11,9 @@
             height: 100%;
             margin: 0;
         }
+        div#gjs {
+            height: 100vh !important;
+        }
         </style>
         @routes
 </head>
