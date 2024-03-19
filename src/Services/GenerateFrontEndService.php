@@ -2,7 +2,8 @@
 
 namespace MSA\LaravelGrapes\Services;
 
-use simplehtmldom\HtmlDocument;
+// use simplehtmldom\HtmlDocument;
+use voku\helper\HtmlDomParser;
 
 class GenerateFrontEndService {
 
@@ -255,7 +256,7 @@ class GenerateFrontEndService {
 
     protected function htmlInitialization($html_string, $slug)
     {
-        $html = new HtmlDocument();
+        $html = new HtmlDomParser();
 
         $html->load($html_string);
 
@@ -285,15 +286,15 @@ class GenerateFrontEndService {
             $original_text = $auth_shortcode->text();
 
             if ($code === '[auth_email_shortcode]') {
-                $auth_shortcode->innertext = ' @if(auth("'.$guard.'")->user()) {{auth()->user()->email}} @else '.$original_text.' @endif ';
+                $auth_shortcode->nodeValue = ' @if(auth("'.$guard.'")->user()) {{auth()->user()->email}} @else '.$original_text.' @endif ';
             }
 
             if ($code === '[auth_link_shortcode]') {
-                $auth_shortcode->outertext = ' @if(auth("'.$guard.'")->user()) '.$auth_shortcode.' @endif ';
+                $auth_shortcode->nodeValue = ' @if(auth("'.$guard.'")->user()) '.$auth_shortcode.' @endif ';
             }
 
             if ($code === '[none_auth_link_shortcode]') {
-                $auth_shortcode->outertext = ' @if(!auth("'.$guard.'")->user()) '.$auth_shortcode.' @endif ';
+                $auth_shortcode->nodeValue = ' @if(!auth("'.$guard.'")->user()) '.$auth_shortcode.' @endif ';
             }
 
             $auth_shortcode->removeAttribute('guard');
